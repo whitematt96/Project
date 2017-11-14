@@ -1,0 +1,47 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(../Images/mountainsideflat.png) no-repeat center center fixed;
+}
+
+.menu {
+    width: 23%;
+    margin-top: 10%;
+    margin-left: 3%;
+    max-width: 300px;
+    border: 2px solid rgba(242,102,49,.75);
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    position:static;
+    font-size: 32px;
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: rgba(242,102,49,.75);
+}
+
+.menu a:hover {
+    background-color: rgba(242,102,49,0.4);
+    color: rgba(255,255,255,0.75);
+}
+
+.menu a.active {
+    background-color: rgba(242,102,49,0.75);
+    color: black;
+}
+
+.title {
+    float: left;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.titleimg {
+    width: 100%;
+}
