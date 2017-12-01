@@ -1,15 +1,11 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    background: url(../Images/mountainsideflat.png) no-repeat center center fixed;
+
+.desc1{
+    font-size: 22px;
+    color: black;
 }
 
-.desc{
-    border: 2px solid rgba(242,102,49,.75);
-    font-size: 22px;
-    font-size-adjust: auto;
-    color: rgba(242,102,49,1);
-    background-color: rgba(0,0,0,0.75);
-    border-radius: 3px;
-}
+h1 {font-size:60px;}
+.header1 {background-image: url("/Images/PossibleBannerPic.jpg");
+         background-repeat: repeat-y;
+         width: 100%;
+         height: 80px;}
